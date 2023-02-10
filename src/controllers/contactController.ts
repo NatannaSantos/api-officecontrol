@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import contactService from "../services/contactService";
+import contactService from "../services/contactService.js";
 
 async function createContact(req: Request, res:Response){
     const contacts = req.body;

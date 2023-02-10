@@ -1,6 +1,6 @@
 import { Contact } from "@prisma/client";
-import { notFoundError } from "../../utils/errorUtils";
-import contactRepository from "../repositories/contactRepository";
+import { notFoundError } from "../../utils/errorUtils.js";
+import contactRepository from "../repositories/contactRepository.js";
 
 export type CreateContactData = Omit<Contact, "id">
 

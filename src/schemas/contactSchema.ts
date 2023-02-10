@@ -1,5 +1,5 @@
 import Joi from "joi";
-import { CreateContactData } from "../services/contactService";
+import { CreateContactData } from "../services/contactService.js";
 
 type CreateContactSchemaData = Omit <CreateContactData,"companyId">
 

@@ -1,4 +1,4 @@
-import { prisma } from "../database";
+import { prisma } from "../database.js";
 import { CreateContactData } from "../services/contactService";
 
 async function insert(createContactaData: CreateContactData) {
